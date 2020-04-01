@@ -13,7 +13,7 @@ int linkedlistLength(struct node* head)
 	while(head)
 	{
 		count++;
-		current=current->next;
+		head=head->next;
 	}
 	return count;
 }
