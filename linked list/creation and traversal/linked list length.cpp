@@ -9,9 +9,8 @@ struct node
 
 int linkedlistLength(struct node* head)
 {
-	struct node* current=head;
 	int count=0;
-	while(current)
+	while(head)
 	{
 		count++;
 		current=current->next;
